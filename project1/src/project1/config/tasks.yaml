@@ -1,0 +1,14 @@
+generate_joke_task:
+  description: >
+    Generate a Chuck Norris joke
+  expected_output: >
+    A Chuck Norris joke
+  agent: chuck_norris_joke_generator
+
+pick_joke_task:
+  description: >
+    Pick a Chuck Norris joke
+  expected_output: >
+    A Chuck Norris joke
+  agent: chuck_norris_joke_picker
+ 
